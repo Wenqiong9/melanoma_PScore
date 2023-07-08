@@ -31,7 +31,7 @@ mydata$value[mydata$correlation == "Negative"] <- 0-mydata$value[mydata$correlat
 mydata$tumor_type <- factor(mydata$tumor_type, levels = c("Primary", "Metastatic"))
 
 
-# 转移原发分面
+# facet_wrap 
 pdf("d:/Work/Projects/BMC_Revised/Results/06.figures/figS1-barplot.pdf",width = 10,height = 9)
 ggplot(data = mydata) +
   facet_wrap(~ tumor_type) +
