@@ -1,6 +1,5 @@
 rm(list=ls())
 load("d:/Work/Projects/BMC_Revised/Results/08.methods_compare/uniCox_GSE65904.RData")
-# load("d:/Work/Projects/BMC_Revised/Results/08.methods_compare/uniCox_GSE19234.RData")
 load("d:/Work/Projects/BMC_Revised/Results/08.methods_compare/uniCox_GSE54467.RData")
 load("d:/Work/Projects/BMC_Revised/Results/08.methods_compare/uniCox_TCGA.RData")
 load("d:/Work/Projects/BMC_Revised/Results/08.methods_compare/uniCox_inhousedata.RData")
